@@ -2,3 +2,19 @@
 	h4{
 	   color: green;
 	}
+	
+	.easteregg{
+	  color:pink;
+	  font-size:20;
+	}
+     
+	#game-rules{
+	   color:orange;
+	  font-size: 30:
+	}
+
+        .rule:hover{
+	  color:darkorange;
+	  font-size:35;
+
+	}

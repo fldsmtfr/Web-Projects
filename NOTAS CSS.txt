@@ -1,0 +1,37 @@
+Specificity:
+
+Specificity is the order by which the browser decides which CSS styles will be displayed. A best practice in CSS is to style elements while using the lowest degree of specificity so that if an element needs a new style, it is easy to override.
+
+IDs are the most specific selector, then classes and finally types
+
+	¿Qué significa esto? 
+	En CSS le podemos dar estilo a:
+	  IDs: le pertenecen únicamente a UN SOLO elemento de nuestra página
+	  Clases: son elementos similares que se pueden agrupar
+	  Tipos: son conjuntos más grandes de elementos, los tipos pueden contener clases diferentes. 
+	
+	Por ejemplo, un tipo podría ser el tipo "título", luego, de los títulos podemos ramificar a, por ejemplo, títulos de imágenes o títulos de tablas que tengamos en nuestra página, y por  último un ID se le podría dar a un título de la imagen del elefante rosa. El estilo que tenga el título para la imagen del elefante rosa será único y muy específico. 
+
+Si, por ejemplo, el atributo de un mismo elemento se define de manera diferente en su ID, en su clase y en su tipo, digamos, por ejemplo, el color del texto se define en las tres, el color que tendrá el texto en pantalla será el del ID, porque es el más específico, luego se mostraría el de la clase y al último el del tipo
+
+
+por ejemplo, si quisiéramos darle a un elemento una ID, una clase y un ID tendríamos:
+
+<h1 class="nombre_clase" id="nombre_id">Este es un elemento</h1>
+
+En el archivo CSS los estilos dell tipo, la clase y el ID se definen de manera diferente:
+
+	h1{
+  		color:yellow;
+	}
+
+	.nombre_clase{
+  		color:pink;
+	}
+
+	#nombre_id{
+  		color:cornflowerblue;
+	}
+
+
+
