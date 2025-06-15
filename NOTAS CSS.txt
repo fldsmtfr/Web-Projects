@@ -34,4 +34,34 @@ En el archivo CSS los estilos dell tipo, la clase y el ID se definen de manera d
 	}
 
 
+Review CSS elements
 
+Throughout this lesson, you learned how to select HTML elements with CSS and apply styles to them. Let’s review what you learned:
+
+CSS can select HTML elements by type, class, ID, and attribute.
+All elements can be selected using the universal selector.
+An element can have different states using the pseudo-class selector.
+Multiple CSS classes can be applied to one HTML element.
+Classes can be reusable, while IDs can only be used once.
+IDs are more specific than classes, and classes are more specific than type. That means IDs will override any styles from a class, and classes will override any styles from a type selector.
+Multiple 
+Preview: Docs Loading link description
+selectors
+ can be chained together to select an element. This raises the specificity but can be necessary.
+Nested elements can be selected by separating selectors with a space.
+Multiple unrelated selectors can receive the same styles by separating the selector names with commas.
+Great work this lesson. With this knowledge, you’ll be able to use CSS to change the look and feel of websites to make them look great!
+
+Review CSS rules:
+
+Review Visual Rules
+The property defines the typeface of an element
+font-size controls the size of text displayed.
+font-weight defines how thin or thick text is displayed.
+The text-align property places text in the left, right, or center of its parent container.
+Text can have two different color attributes: color and background-color
+color defines the color of the text, while background-color defines the color behind the text
+CSS can make an element transparent with the 
+Preview: Docs To measure of how transparent an element is.opacity property.
+CSS can also set the background of an element to an image with the background-image property.
+The !important flag will override any style, however it should almost never be used, as it is extremely difficult to override.
