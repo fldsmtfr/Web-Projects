@@ -23,12 +23,20 @@ h3.questions{
 }
 
 p.answers{
+  padding: 20px 15px 20px 15px;
   text-align:justify;
   font-size:17px;
   font-family:"Times New Roman";
+  border: 3px dotted #ACD1AF;
 
 }
 p.resume{
+ border:3px dotted #ACD1AF;
+ padding-top:20px;
+ padding-bottom:20px;
+ padding-left:30px;
+ padding-right:30px;
+ border-radius:50%;
  opacity:1;
  text-align:justify;
  font-size:19px;
