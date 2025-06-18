@@ -8,6 +8,7 @@ h1{
 }
 
 h3{
+  margin:10px;
   text-align:left;
   color:green !important;
   font-size:10px;
@@ -43,3 +44,10 @@ p.resume{
  font-family:"Times New Roman";
 }
 
+h3.questions p.answers{
+  min-height:300px;
+  max-height:800px;
+  min-width:300px;
+  max-width:400px;
+
+}

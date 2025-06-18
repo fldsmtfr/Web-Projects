@@ -1,0 +1,19 @@
+h2.title{
+  color:#ffb3ba;
+  weight:bold;
+  font-family:"Times New Roman";
+}
+p{
+  font-size:22px;
+  color:#baffc9;
+  font-family:"Times New Roman";
+}
+button{
+  padding:10px;
+  margin:20px;
+  align:center;
+}
+footer{
+  padding:20px;
+  background-color:#94F6FF;
+}
