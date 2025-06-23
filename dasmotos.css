@@ -1,0 +1,36 @@
+h1.title{
+  font-family:Helvetica;
+  font-size:100px;
+  font-weight:bold;
+  color:khaki;
+  text-align:center;
+  background-image:url('patterndesmotos.jpeg');
+}
+h1.brushes{
+  font-family:Helvetica;
+  font-size:32px;
+  font-weight:bold;
+  color:white;
+  background-color:mediumspringgreen;
+}
+h1.frames{
+  font-family:Helvetica;
+  font-size:32px;
+  font-weight:bold;
+  color:white;
+  background-color:lightcoral;
+
+}
+h1.paint{
+  font-family:Helvetica;
+  font-size:32px;
+  font-weight:bold;
+  color:white;
+  background-color:skyblue;
+}
+h4.blue{
+  font-family:Helvetica;
+  font-weight:bold;
+  color:blue;
+
+}
